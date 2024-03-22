@@ -1,6 +1,6 @@
 """Main file."""
-from modules.module1 import f1
+from modules.module1 import f2
 
 if __name__ == '__main__':
     print('Hello World!!!')
-    print(f1(1.5, 2.5))
+    print(f2(1.5, 2.5))
