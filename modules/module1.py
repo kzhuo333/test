@@ -27,3 +27,15 @@ def f2(a: Number, b: Number) -> Number:
         Number: Result product.
     """
     return a*b
+
+
+def f4(a: Number) -> Number:
+    """Triple.
+
+    Args:
+        a (Number): Some number.
+
+    Returns:
+        Number: Result.
+    """
+    return a * 3.0
