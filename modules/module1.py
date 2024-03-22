@@ -29,6 +29,18 @@ def f2(a: Number, b: Number) -> Number:
     return a*b
 
 
+def f3(a: Number) -> Number:
+    """Double.
+
+    Args:
+        a (Number): Some number.
+
+    Returns:
+        Number: Result.
+    """
+    return a*2.0
+
+
 def f4(a: Number) -> Number:
     """Triple.
 
@@ -38,4 +50,5 @@ def f4(a: Number) -> Number:
     Returns:
         Number: Result.
     """
+
     return a * 3.0
