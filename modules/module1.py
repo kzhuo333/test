@@ -14,3 +14,16 @@ def f1(a: Number, b: Number) -> Number:
         Number: Resulting sum.
     """
     return a+b
+
+
+def f2(a: Number, b: Number) -> Number:
+    """Multiply a and b
+
+    Args:
+        a (Number): Some number.
+        b (Number): Some number.
+
+    Returns:
+        Number: Result product.
+    """
+    return a*b
