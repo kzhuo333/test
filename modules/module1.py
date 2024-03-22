@@ -39,16 +39,3 @@ def f3(a: Number) -> Number:
         Number: Result.
     """
     return a*2.0
-
-
-def f4(a: Number) -> Number:
-    """Triple.
-
-    Args:
-        a (Number): Some number.
-
-    Returns:
-        Number: Result.
-    """
-
-    return a * 3.0
