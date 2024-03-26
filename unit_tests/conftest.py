@@ -11,3 +11,13 @@ def my_fix():
         _type_: _description_
     """
     return MyClass('Jimmy')
+
+
+@pytest.fixture
+def some_data():
+    """_summary_
+
+    Returns:
+        _type_: _description_
+    """
+    return {'a': 123, 'b': 456}
