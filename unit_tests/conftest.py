@@ -10,6 +10,7 @@ def my_fix():
     Returns:
         _type_: _description_
     """
+    print('Making a Jimmy')
     return MyClass('Jimmy')
 
 
